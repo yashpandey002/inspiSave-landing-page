@@ -3,17 +3,8 @@ function Footer() {
         <nav className="w-full border-t border-[#E2E2E2]">
             <div className="max-w-[1440px] mx-auto flex flex-col-reverse gap-4 items-center justify-between py-4 px-2 sm:px-4 md:flex-row lg:px-6">
                 <div>
-                    <p className="text-center text-gray-600">
-                        Made with ❤️ by{' '}
-                        <span className="underline hover:text-gray-950">
-                            <a
-                                href="https://yash-pandey.netlify.app/"
-                                target="_blank"
-                            >
-                                Yash Pandey
-                            </a>
-                        </span>
-                        , in beautiful city of lakes Udaipur.
+                    <p className="text-gray-500">
+                        © 2024 inspiSave. All rights reserved.
                     </p>
                 </div>
                 <div>
@@ -31,6 +22,20 @@ function Footer() {
                         Download
                     </a>
                 </div>
+            </div>
+            <div className="px-4">
+                <p className="text-center text-gray-400">
+                    Made with ❤️ by{' '}
+                    <span className="underline hover:text-gray-950">
+                        <a
+                            href="https://yash-pandey.netlify.app/"
+                            target="_blank"
+                        >
+                            Yash Pandey
+                        </a>
+                    </span>
+                    , in beautiful city of lakes Udaipur.
+                </p>
             </div>
         </nav>
     );
