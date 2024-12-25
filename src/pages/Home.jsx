@@ -8,7 +8,7 @@ function Home() {
         searchParams.size > 0 ? true : false
     );
     const [isTokenAvailable, setIsTokenAvailable] = useState(
-        searchParams.get('token') ? true : false
+        searchParams.get('code') ? true : false
     );
 
     return (
