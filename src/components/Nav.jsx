@@ -5,10 +5,12 @@ function Nav() {
         <nav className="w-full border-b border-[#E2E2E2]">
             <div className="max-w-[1440px] mx-auto flex items-center justify-between py-4 px-2 sm:px-4 lg:px-6">
                 <div>
-                    <img
-                        src="./img/logo.svg"
-                        className="h-[30px] md:h-[40px] lg:h-[45px]"
-                    />
+                    <a href="/">
+                        <img
+                            src="./img/logo.svg"
+                            className="h-[30px] md:h-[40px] lg:h-[45px]"
+                        />
+                    </a>
                 </div>
                 <div>
                     <a

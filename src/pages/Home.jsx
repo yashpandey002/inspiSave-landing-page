@@ -34,7 +34,7 @@ function Home() {
                         <img src="./img/chrome-icon.svg" />
                         Download on Chrome
                     </a>
-                    <a href="#" className="text-gray-500">
+                    <a href="#how-to-use" className="text-gray-500">
                         How to use?
                     </a>
                 </div>
@@ -56,7 +56,7 @@ function Home() {
                     />
                 </div>
             </section>
-            <section className="px-4 pb-5">
+            <section className="px-4 pb-5" id="how-to-use">
                 <div className="container mx-auto">
                     <h2 className="text-3xl mb-6 font-black tracking-tight leading-none sm:text-4xl lg:mb-16">
                         It’s a simple 3-step process
